@@ -177,27 +177,6 @@ ROCM_BLOCKLIST = [
     "test_jit_cuda_fuser",
 ]
 
-<<<<<<< HEAD
-S390X_BLOCKLIST = [
-    # these tests fail due to various reasons
-    "dynamo/test_misc",
-    "inductor/test_cpu_repro",
-    "inductor/test_cpu_select_algorithm",
-    "inductor/test_aot_inductor_arrayref",
-    "inductor/test_torchinductor_codegen_dynamic_shapes",
-    "lazy/test_meta_kernel",
-    "onnx/test_utility_funs",
-    "profiler/test_profiler",
-    "test_ao_sparsity",
-    "test_cpp_extensions_open_device_registration",
-    "test_jit",
-    "test_metal",
-    "test_mps",
-    "dynamo/test_torchrec",
-    "inductor/test_aot_inductor_utils",
-    "inductor/test_coordinate_descent_tuner",
-    "test_jiterator",
-=======
 # whitelist of tests for s390x
 S390X_TESTLIST = [
     "backends/xeon/test_launch",
@@ -462,7 +441,6 @@ S390X_TESTLIST = [
     "inductor/test_control_flow",
     "inductor/test_cooperative_reductions",
     "inductor/test_cpp_wrapper_hipify",
->>>>>>> parent of d3a66facab4 (Add test on run_test)
     "inductor/test_cpu_cpp_wrapper",
     "export/test_converter",
     "inductor/test_inductor_freezing",
